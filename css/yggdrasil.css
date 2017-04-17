@@ -1,0 +1,152 @@
+/* yggdrasil.css -- a simple, responsive, light-weight, fluid (ooh)
+ * and nestable (double ooh), mobile-first CSS grid in 12 parts.
+ * (Basically, all the buzzwords.)
+ *
+ * This is free and unencumbered software released into the public domain
+ * under the terms of the Unlicense <http://unlicense.org>
+ */
+
+html {
+	box-sizing:border-box;
+}
+
+*, *:before, *:after {
+	box-sizing:inherit;
+}
+
+.grid {
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+	align-items:flex-start;
+	width:98%;
+	margin-left:2.5%;
+}
+
+.c1,
+.c2,
+.c3,
+.c4,
+.c5,
+.c6,
+.c7,
+.c8,
+.c9,
+.c10,
+.c11,
+.c12 {
+	margin-left:0.5%;
+	margin-right:0.5%;
+	flex-grow:0;
+	flex-shrink:0;
+	flex-basis:96.5%;
+}
+
+@media (min-width:640px) {
+	.c1   { flex-basis:48%; }
+	.c2   { flex-basis:48%; }
+	.c3   { flex-basis:48%; }
+	.c4   { flex-basis:48%; }
+	.c5   { flex-basis:48%; }
+	.c6   { flex-basis:48%; }
+	.c7   { flex-basis:48%; }
+	.c8   { flex-basis:48%; }
+	.c9   { flex-basis:48%; }
+	.c10  { flex-basis:48%; }
+	.c11  { flex-basis:48%; }
+	.c12  { flex-basis:96.5%; }
+
+	.off1   { margin-left:48.5%; }
+	.off2   { margin-left:48.5%; }
+	.off3   { margin-left:48.5%; }
+	.off4   { margin-left:48.5%; }
+	.off5   { margin-left:48.5%; }
+	.off6   { margin-left:48.5%; }
+	.off7   { margin-left:48.5%; }
+	.off8   { margin-left:48.5%; }
+	.off9   { margin-left:48.5%; }
+	.off10  { margin-left:48.5%; }
+	.off11  { margin-left:48.5%; }
+}
+
+@media (min-width:740px) {
+	.c1   { flex-basis:24%; }
+	.c2   { flex-basis:24%; }
+	.c3   { flex-basis:24%; }
+	.c4   { flex-basis:32%; }
+	.c5   { flex-basis:48%; }
+	.c6   { flex-basis:48%; }
+	.c7   { flex-basis:48%; }
+	.c8   { flex-basis:64%; }
+	.c9   { flex-basis:72%; }
+	.c10  { flex-basis:72%; }
+	.c11  { flex-basis:72%; }
+	.c12  { flex-basis:96.5%; }
+
+	.off1   { margin-left:24.5%; }
+	.off2   { margin-left:24.5%; }
+	.off3   { margin-left:24.5%; }
+	.off4   { margin-left:32.5%; }
+	.off5   { margin-left:48.5%; }
+	.off6   { margin-left:48.5%; }
+	.off7   { margin-left:48.5%; }
+	.off8   { margin-left:64.5%; }
+	.off9   { margin-left:72.5%; }
+	.off10  { margin-left:72.5%; }
+	.off11  { margin-left:72.5%; }
+}
+
+@media (min-width:960px) {
+	.c1   { flex-basis:16%; }
+	.c2   { flex-basis:24%; }
+	.c3   { flex-basis:24%; }
+	.c4   { flex-basis:32%; }
+	.c5   { flex-basis:40%; }
+	.c6   { flex-basis:48%; }
+	.c7   { flex-basis:56%; }
+	.c8   { flex-basis:64%; }
+	.c9   { flex-basis:72%; }
+	.c10  { flex-basis:72%; }
+	.c11  { flex-basis:80%; }
+	.c12  { flex-basis:96.5%; }
+
+	.off1   { margin-left:16.5%; }
+	.off2   { margin-left:24.5%; }
+	.off3   { margin-left:24.5%; }
+	.off4   { margin-left:32.5%; }
+	.off5   { margin-left:40.5%; }
+	.off6   { margin-left:48.5%; }
+	.off7   { margin-left:56.5%; }
+	.off8   { margin-left:64.5%; }
+	.off9   { margin-left:72.5%; }
+	.off10  { margin-left:72.5%; }
+	.off11  { margin-left:80.5%; }
+}
+
+@media (min-width:1140px) {
+	.c1   { flex-basis:8%;  }
+	.c2   { flex-basis:16%; }
+	.c3   { flex-basis:24%; }
+	.c4   { flex-basis:32%; }
+	.c5   { flex-basis:40%; }
+	.c6   { flex-basis:48%; }
+	.c7   { flex-basis:56%; }
+	.c8   { flex-basis:64%; }
+	.c9   { flex-basis:72%; }
+	.c10  { flex-basis:80%; }
+	.c11  { flex-basis:88%; }
+	.c12  { flex-basis:96.5%; }
+
+	.off1   { margin-left:9%;  }
+	.off2   { margin-left:17%; }
+	.off3   { margin-left:25%; }
+	.off4   { margin-left:33%; }
+	.off5   { margin-left:41%; }
+	.off6   { margin-left:49%; }
+	.off7   { margin-left:57%; }
+	.off8   { margin-left:65%; }
+	.off9   { margin-left:73%; }
+	.off10  { margin-left:81%; }
+	.off11  { margin-left:89%; }
+}
