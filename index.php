@@ -105,7 +105,7 @@
         <h1>Research Start</h1>
         <h2 class="subhead">Need help researching a topic? Search, select, or browse GVSU's research guides, databases, and helpful librarians.</h2>
       </header>
-      <form action="research.php" method="post" class="c12">
+      <form action="index.php" method="post" class="c12">
         <label for="research-search">Search for a research guide: </label>
         <input id="research-search" type="text" name="research_search" placeholder="Search by course code or name..." />
         <label for="research-options">Or choose one from this list: </label>
